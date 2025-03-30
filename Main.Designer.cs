@@ -215,9 +215,9 @@
             this.guna2Button9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.Location = new System.Drawing.Point(630, 393);
+            this.guna2Button9.Location = new System.Drawing.Point(626, 393);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(74, 45);
+            this.guna2Button9.Size = new System.Drawing.Size(78, 45);
             this.guna2Button9.TabIndex = 12;
             this.guna2Button9.Text = "Github (App)";
             this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
