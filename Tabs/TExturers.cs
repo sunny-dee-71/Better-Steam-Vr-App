@@ -96,6 +96,7 @@ namespace Better_Steam_Vr
 
         private async void guna2Button1_Click(object sender, EventArgs e)
         {
+            guna2Button1.Text = "Loading Texture...";
             string leftUrl = "", rightUrl = "";
 
             switch (guna2ComboBox1.SelectedIndex)
@@ -117,6 +118,7 @@ namespace Better_Steam_Vr
                     rightUrl = "https://raw.githubusercontent.com/sunny-dee-71/better-steam-vr/main/Textures/quest%202%20femboy%20right.png";
                     break;
                 default:
+                    guna2Button1.Text = "Load Texture";
                     MessageBox.Show("Invalid selection!");
                     return;
             }
@@ -137,6 +139,7 @@ namespace Better_Steam_Vr
             await THing(leftUrl, leftPath);
             await THing(rightUrl, rightPath);
 
+            guna2Button1.Text = "Load Texture";
             MessageBox.Show("Textures Saved!");
         }
     }
