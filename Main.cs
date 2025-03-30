@@ -341,5 +341,14 @@ namespace Better_Steam_Vr
                 BSI.Show();
             }
         }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://github.com/sunny-dee-71/Better-Steam-Vr-App",
+                UseShellExecute = true
+            });
+        }
     }
 }

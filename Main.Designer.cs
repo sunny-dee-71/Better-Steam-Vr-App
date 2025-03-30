@@ -38,6 +38,7 @@
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // label1
@@ -166,11 +167,11 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(720, 393);
+            this.guna2Button6.Location = new System.Drawing.Point(710, 393);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(68, 45);
+            this.guna2Button6.Size = new System.Drawing.Size(78, 45);
             this.guna2Button6.TabIndex = 9;
-            this.guna2Button6.Text = "Github";
+            this.guna2Button6.Text = "Github (assests)";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button7
@@ -205,6 +206,22 @@
             this.guna2Button8.Text = "Backgrounds";
             this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
+            // guna2Button9
+            // 
+            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button9.ForeColor = System.Drawing.Color.White;
+            this.guna2Button9.Location = new System.Drawing.Point(630, 393);
+            this.guna2Button9.Name = "guna2Button9";
+            this.guna2Button9.Size = new System.Drawing.Size(74, 45);
+            this.guna2Button9.TabIndex = 12;
+            this.guna2Button9.Text = "Github (App)";
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
+            // 
             // Better_Steam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +229,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.guna2Button9);
             this.Controls.Add(this.guna2Button8);
             this.Controls.Add(this.guna2Button7);
             this.Controls.Add(this.guna2Button6);
@@ -248,6 +266,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button guna2Button9;
     }
 }
 
